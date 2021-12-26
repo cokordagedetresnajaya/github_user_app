@@ -1,15 +1,20 @@
-package com.dicoding.cokdetresnajaya.githubuser
+package com.dicoding.cokdetresnajaya.githubuser.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.dicoding.cokdetresnajaya.githubuser.activity.DetailUserActivity
+import com.dicoding.cokdetresnajaya.githubuser.adapter.ListUserAdapter
+import com.dicoding.cokdetresnajaya.githubuser.R
+import com.dicoding.cokdetresnajaya.githubuser.data.User
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var rvUsers: RecyclerView
     private val list = ArrayList<User>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

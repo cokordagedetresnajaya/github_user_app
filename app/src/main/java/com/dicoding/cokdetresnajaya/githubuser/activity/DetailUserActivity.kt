@@ -1,15 +1,15 @@
-package com.dicoding.cokdetresnajaya.githubuser
+package com.dicoding.cokdetresnajaya.githubuser.activity
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.app.ActionBar
 import com.bumptech.glide.Glide
+import com.dicoding.cokdetresnajaya.githubuser.R
+import com.dicoding.cokdetresnajaya.githubuser.data.User
 
 class DetailUserActivity : AppCompatActivity() {
     private lateinit var imgAvatar: ImageView

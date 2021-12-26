@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/pantone"
     android:padding="8dp"
-    tools:context=".DetailUserActivity">
+    tools:context=".activity.DetailUserActivity">
 
     <ImageView
         android:id="@+id/img_avatar"
